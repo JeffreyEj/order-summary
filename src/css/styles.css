@@ -40,6 +40,23 @@ body {
 
 }
 
+@media (max-width: 767px) {
+
+       body {
+         background: #e0e8ff url("pattern-background-mobile.svg");
+
+         background-repeat: no-repeat;
+
+       }
+
+       #content {
+       max-width: 400px;
+       min-width: 240px;
+       }
+
+}
+
+
 
 
 
@@ -53,19 +70,6 @@ body {
   box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
-@media (min-width: 768px) {
-
-  body {
-    background-image: url(pattern-background-mobile.svg);
-    height: 50vh;
-
-  }
-
-  #content {
-    width: 500px;
-  }
-
-}
 
 #content > img {
   border-radius: 2rem 2rem 0 0;
