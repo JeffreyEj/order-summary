@@ -51,6 +51,18 @@ body {
   box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
+@media only screen and (max-width: 425px) {
+
+  #content {
+    max-width: 87%;
+  }
+
+  #anualPlan #change {
+    visibility: hidden;
+
+  }
+
+}
 
 #content > img {
   border-radius: 2rem 2rem 0 0;
@@ -104,18 +116,20 @@ body {
   top: 1.5rem;
 }
 
-#anualPlan a:hover {
-  text-decoration: none;
-  color: hsl(245, 75%, 70%);
-}
-
-#anualPlan a {
+#anualPlan #change {
   font-weight: bold;
   color: hsl(245, 75%, 52%);
   position: absolute;
   left: 19rem;
   top: 1.5rem;
+  text-decoration: underline;
 }
+
+#anualPlan #change:hover {
+  text-decoration: none;
+  color: hsl(245, 75%, 70%);
+}
+
 
 /* === BUTTON-PAYMENT === */
 
