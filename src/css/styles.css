@@ -1,0 +1,195 @@
+/* === WEBSITE ADVERTISEMENT === */
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* === COLORS === */
+
+
+### Primary
+/* - Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%) */
+
+
+
+### Neutral
+/* - Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%) */
+
+
+/* === GENERAL ===*/
+
+html {
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Red Hat Display', 'Arial', 'sans-serif';
+  margin: 0;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(pattern-background-desktop.svg);
+  background-size: 100% 35rem;
+  background-repeat: no-repeat;
+
+}
+
+
+
+
+/* === CONTENT === */
+
+#content {
+  background-color: #FFF;
+  width: 30rem;
+  height: 45rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
+  border-radius: 2rem;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1440px) {
+
+  #content {
+    margin-top: 10%;
+  }
+
+}
+
+@media (max-width: 1024px) {
+
+  #content {
+    margin-top: 15%;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  #content {
+    margin-top: 20%;
+  }
+
+}
+
+@media (max-width: 375px) {
+
+  #content {
+    margin-top: 80%;
+  }
+
+  body {
+    background-image: url(pattern-background-mobile.svg);
+    background-size: 50rem;
+
+  }
+
+}
+
+#content > img {
+  border-radius: 2rem 2rem 0 0;
+  width: 100%;
+  height: auto;
+}
+
+#content h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 4rem;
+}
+
+#content p {
+  text-align: center;
+  color: grey;
+  font-size: 1.2rem;
+}
+
+/* === ANUAL PLAN === */
+
+#anualPlan {
+  background-color: hsl(225, 100%, 98%);
+  width: 80%;
+  height: 8rem;
+  margin-left: auto;
+  margin: auto;
+  position: relative;
+  border-radius: 1rem;
+}
+
+#anualPlan img {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+
+}
+
+#anualPlan span {
+  position: absolute;
+  left: 5rem;
+  top: 1rem;
+  font-weight: bold;
+}
+
+#anualPlan p {
+  position: absolute;
+  font-size: 1rem;
+  left: 5rem;
+  top: 1.5rem;
+}
+
+#anualPlan a:hover {
+  text-decoration: none;
+  color: hsl(245, 75%, 70%);
+}
+
+#anualPlan a {
+  font-weight: bold;
+  color: hsl(245, 75%, 52%);
+  position: absolute;
+  left: 19rem;
+  top: 1.5rem;
+}
+
+/* === BUTTON-PAYMENT === */
+
+#payment {
+  position: relative;
+  left: 3rem;
+  top: -1rem;
+  border-radius: 1rem;
+  border-style: none;
+  width: 80%;
+  height: 3rem;
+  background-color: hsl(245, 75%, 52%);
+  color: #FFF;
+  font-weight: bold;
+  font-size: 1rem;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+#payment:hover {
+background-color: hsl(245, 75%, 70%);
+cursor: pointer;
+
+}
+
+/* === CANCEL-ORDER === */
+
+#cancelOrder {
+  position: relative;
+  top: -1rem;
+}
+
+#cancelOrder p {
+  display: block;
+}
+
+#cancelOrder p:hover {
+  color: hsl(223, 47%, 23%);
+  cursor: pointer;
+  font-weight: bold;
+}
