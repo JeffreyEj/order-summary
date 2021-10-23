@@ -89,7 +89,7 @@ body {
 #anualPlan {
   background-color: hsl(225, 100%, 98%);
   width: 80%;
-  height: 8rem;
+  height: 4rem;
   margin-left: auto;
   margin: auto;
   position: relative;
@@ -137,7 +137,7 @@ body {
 #payment {
   position: relative;
   left: 3rem;
-  top: -1rem;
+  top: 2rem;
   border-radius: 1rem;
   border-style: none;
   width: 80%;
@@ -159,7 +159,7 @@ cursor: pointer;
 
 #cancelOrder {
   position: relative;
-  top: -1rem;
+  top: 3rem;
 }
 
 #cancelOrder p {
