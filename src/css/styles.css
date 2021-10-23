@@ -40,25 +40,6 @@ body {
 
 }
 
-@media (max-width: 767px) {
-
-       body {
-         background: #e0e8ff url("pattern-background-mobile.svg");
-
-         background-repeat: no-repeat;
-
-       }
-
-       #content {
-       max-width: 400px;
-       min-width: 240px;
-       }
-
-}
-
-
-
-
 
 /* === CONTENT === */
 
