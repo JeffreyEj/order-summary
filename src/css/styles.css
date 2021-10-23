@@ -55,6 +55,7 @@ body {
 
   #content {
     max-width: 87%;
+    max-height: 87%;
   }
 
   #anualPlan #change {
